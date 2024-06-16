@@ -8,11 +8,15 @@ const handleprev =()=>{
 setModal(!modal)
 }
 
-
+const handleOutside = (e) => {
+    if (e.target.className === "xyz") {
+      setModal(false);
+    }
+  };
 return(
    
 
-    <div style={{textAlign:"center"}} 
+    <div style={{textAlign:"center"} } onClick={handleOutside} 
 className={modal &&("xyz")}
     
     >
