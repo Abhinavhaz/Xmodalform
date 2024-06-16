@@ -8,10 +8,11 @@ const handleprev =()=>{
 setModal(!modal)
 }
 
+
 return(
    
 
-    <div style={{textAlign:"center"}}  
+    <div style={{textAlign:"center"}} 
 className={modal &&("xyz")}
     
     >
