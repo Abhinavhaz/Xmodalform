@@ -16,7 +16,7 @@ const handleOutside = (e) => {
 return(
    
 
-    <div style={{textAlign:"center"} } onClick={handleOutside} 
+    <div style={{marginTop:"-22px",textAlign:"center"}}  onClick={handleOutside} 
 className={modal &&("xyz")}
     
     >
