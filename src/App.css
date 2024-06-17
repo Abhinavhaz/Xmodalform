@@ -1,4 +1,4 @@
-
+/* 
 .modal{
   display: flex;
     justify-content: center;
@@ -62,4 +62,62 @@
 
 
 
+ */
+ .App {
+  text-align: center;
+}
+.modal-button {
+  border: 0;
+  color: white;
+  background-color: rgb(54, 173, 252);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
 
+/* .modal {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+
+} */
+
+.modal {
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow for the modal content */
+  max-width: 500px; /* Adjust the maximum width as needed */
+  width: 100%;
+}
+
+input {
+ padding: 0.5em;
+ border-style: groove;
+ border-radius: 10px;
+}
+
+form {
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+form > button {
+  background-color: rgb(54, 173, 252);
+  height: 40px;
+  width: 20%;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  font-weight: 500;
+  margin-top: 2vh;
+  margin-left: 40%;
+}
