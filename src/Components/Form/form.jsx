@@ -15,14 +15,12 @@ const handleOutside = (e) => {
   };
 return(
    
-
-    <div style={{marginTop:"-22px",textAlign:"center"}}  onClick={handleOutside} 
-className={modal &&("xyz")}
+<>
+    <div style={{textAlign:"center"}}  onClick={handleOutside}
+className={modal &&("xyz")} >
     
-    >
-        <h1>User Details Modal</h1>
-
-
+<h1>User Details Modal</h1>
+       
 
         <button style={{ backgroundColor:" rgb(54, 173, 252)",borderRadius:"10px" ,color:"white",height: "40px",width: "10%",border:0}}
         onClick={handleprev}
@@ -35,10 +33,10 @@ className={modal &&("xyz")}
     <Modal setModal={setModal} />
 )}
     </div>
-   
+
+    </>
 
 )
-
 }
 
 export default  Form
